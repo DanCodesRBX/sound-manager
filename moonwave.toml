@@ -13,7 +13,7 @@ onBrokenMarkdownLinks = "warn"
 organizationName = "AuthorName"
 projectName = "MyProjectName"
 url = "https://dancodesrbx.github.io"
-baseUrl = "/SoundManager"
+baseUrl = "/sound-manager"
 tagline = "A lightweight module for playing and replicating one-shot sounds."
 
 [home]
