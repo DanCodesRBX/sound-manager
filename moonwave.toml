@@ -1,0 +1,25 @@
+title = "SoundManager"  # From Git
+gitRepoUrl = "https://github.com/DanCodesRBX/sound-manager" # From Git
+
+gitSourceBranch = "master"
+changelog = true
+classOrder = []
+
+[docusaurus]
+onBrokenLinks = "throw"
+onBrokenMarkdownLinks = "warn"
+
+# From git:
+organizationName = "AuthorName"
+projectName = "MyProjectName"
+url = "https://dancodesrbx.github.io"
+baseUrl = "/SoundManager"
+tagline = "A lightweight module for playing and replicating one-shot sounds."
+
+[home]
+enabled = true
+includeReadme = true
+
+[footer]
+style = "dark"
+copyright = "Copyright © 2024 DanCodesRBX. Built with Moonwave and Docusaurus"

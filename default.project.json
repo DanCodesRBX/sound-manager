@@ -1,0 +1,12 @@
+{
+  "name": "SoundManager",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "SoundManager": {
+        "$path": "src"
+      }
+    }
+  }
+}
