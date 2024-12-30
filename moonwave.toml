@@ -18,7 +18,7 @@ tagline = "A lightweight module for playing and replicating one-shot sounds."
 
 [home]
 enabled = true
-includeReadme = true
+includeReadme = false
 
 [footer]
 style = "dark"
