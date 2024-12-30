@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Getting Started
 
-This module can be obtained using [Pesde](https://pesde.dev), a package manager for Roblox, or the [Roblox Marketplace](https://create.roblox.com/store/asset/10547212432/Rain-System).
+This module can be obtained using [Pesde](https://pesde.dev), a package manager for Roblox, or the [Roblox Asset Store](https://create.roblox.com/store/asset/109674616580058/SoundManager).
 
 ## Pesde Configuration
 Once Pesde is installed, run `pesde init` on your project directory, and then add this module by using `pesde add dancodesrbx/soundpack --alias SoundPack`
