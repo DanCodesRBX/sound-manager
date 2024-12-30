@@ -7,7 +7,7 @@ sidebar_position: 1
 This module can be obtained using [Pesde](https://pesde.dev), a package manager for Roblox, or the [Roblox Asset Store](https://create.roblox.com/store/asset/109674616580058/SoundManager).
 
 ## Pesde Configuration
-Once Pesde is installed, run `pesde init` on your project directory, and then add this module by using `pesde add dancodesrbx/soundpack --alias SoundPack`
+Once Pesde is installed, run `pesde init` on your project directory, and then add this module by using `pesde add dancodesrbx/soundmanager --alias SoundManager`
 
 To install, run `pesde install` within your project. Pesde will create a roblox_packages folder in your directory with the dependency.
 
@@ -65,7 +65,7 @@ SoundManager.Play(Sounds.Pop, playersToSendTo)
 SoundManager.PlayAt(Sounds.Whack, Vector3.zero, playersToSendTo)
 ```
 
-# Optimization
+## Optimization
 
 SoundManager uses buffers alongside a caching system to deliver optimal network usage.
 Using an `UnreliableRemoteEvent` ensures that sounds won't have a heavy impact on ping.

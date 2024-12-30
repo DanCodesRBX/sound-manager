@@ -28,6 +28,14 @@ local callbacks: {[Sound]: (Sound) -> ()} = {}
 ]=]
 type Disconnect = () -> ()
 
+local function runCallback(sound: Sound)
+    local callback = callbacks[sound]
+
+    if callback then
+        callback(sound)
+    end
+end
+
 --[=[
 @client
 @server
@@ -36,7 +44,7 @@ Plays a one-shot sound.
 Players to replicate to can be specified on the server.
 ]=]--
 function SoundManager.Play(sound: Sound, players: {Player}?)
-	callbacks[sound](sound)
+	runCallback(sound)
 
 	SoundService:PlayLocalSound(sound)
 end
@@ -49,7 +57,7 @@ Plays a one-shot sound at a position in the world.
 Players to replicate to can be specified on server
 ]=]--
 function SoundManager.PlayAt(sound: Sound, at: Vector3, players: {Player}?)
-	callbacks[sound](sound)
+	runCallback(sound)
 
 	local newSound = sound:Clone()
 	local attachment = Instance.new("Attachment")
