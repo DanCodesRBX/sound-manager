@@ -1,12 +1,15 @@
 name = "dancodesrbx/soundmanager"
-version = "0.1.0"
+version = "1.0.0"
 description = "A lightweight module for playing and replicating one-shot sounds."
 authors = ["DanCodesRBX"]
 repository = "https://github.com/DanCodesRBX/sound-manager"
 license = "MIT"
+includes = ["pesde.toml", "README.md", "LICENSE", "src/**/*.luau"]
 
 [target]
 environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
 
 [indices]
 default = "https://github.com/pesde-pkg/index"
